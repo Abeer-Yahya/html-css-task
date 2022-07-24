@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <li>
+          <a href="./home.html"
+            ><img src="./img/logo.PNG" alt="logo" class="logo"
+          /></a>
+        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="./form.html">Contact</a></li>
+        <div style="float: right">
+          <li><a href="#account">Account</a></li>
+          <li><a href="#cart">Cart</a></li>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <div>
+        <table class="contact">
+          <tr>
+            <td style="font-weight: 700; font-size: 42px">Contact Us</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Your name.."
+                  /><br />
+
+                  <label for="lname">Last Name</label>
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Your last name.."
+                  /><br />
+
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject..."
+                  /><br />
+
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Write something.."
+                    style="height: 200px"
+                  ></textarea
+                  ><br />
+
+                  <input type="submit" value="Submit" />
+                </form>
+              </div>
+            </td>
+            <td>
+              <img
+                src="./img/contact.jpg"
+                alt="woman"
+                width="350px"
+                height="470px"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="long">
+        <table class="info">
+          <theader style="font-size: 24px"
+            >How Long Skincare takes to work <br
+          /></theader>
+          <tr>
+            <th>The Ingredient</th>
+            <th>What it does</th>
+            <th>Seeing Results in</th>
+          </tr>
+          <tr>
+            <td>Alpha hydroxy acids</td>
+            <td>Exfoliates</td>
+            <td>Right away</td>
+          </tr>
+          <tr>
+            <td>Ceramides</td>
+            <td>Moisturizes and protects</td>
+            <td>A few minutes</td>
+          </tr>
+          <tr>
+            <td>Hyaluronic acid</td>
+            <td>Plumps Skin</td>
+            <td>A few minutes</td>
+          </tr>
+          <tr>
+            <td>Caffeine</td>
+            <td>Depuffs</td>
+            <td>A few hours</td>
+          </tr>
+          <tr>
+            <td>Vitamin C</td>
+            <td>Brightens dark spots</td>
+            <td>3 weeks</td>
+          </tr>
+        </table>
+      </div>
+
+      <table class="feat">
+        <tr>
+          <td>
+            <h4>Free consultation</h4>
+            <br />
+            <p>
+              Before you buy one of our products, ask for consultion and our
+              dermatologist will contact you.
+            </p>
+          </td>
+          <td>
+            <h4>After sales service</h4>
+            <br />
+            <p>
+              After you buy one of our products, contact us and we will send you
+              in details how and when to use the product.
+            </p>
+          </td>
+          <td>
+            <h4>Collaboration</h4>
+            <br />
+            <p>
+              If you want to collaborate with us, you can tell us and we will
+              arrange a meeting.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </main>
+    <footer>
+      <ul class="foot">
+        <li>
+          <img src="./img/logo.PNG" />
+        </li>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="./form.html">Contact</a></li>
+        <li style="float: right">
+          <form>
+            <label for="region "></label>
+            <select id="region " name="region ">
+              <option value="middleeast">Middle East</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </form>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
